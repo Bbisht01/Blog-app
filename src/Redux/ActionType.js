@@ -1,0 +1,6 @@
+export const HOMEPAGEDATA = "HOMEPAGEDATA";
+export const INDIVIDUAL_PAGE = "INDIVIDUAL_PAGE"
+export const FILTER_TAGS = "FILTER_TAGS"
+export const INC_LIKES = "INC_LIKES"
+export const SHOW_COLLECTION = "SHOW_COLLECTION"
+export const LOGGED_IN_DATA = "LOGGED_IN_DATA"

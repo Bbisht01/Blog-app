@@ -1,0 +1,62 @@
+.MainCommentOuterDiv{
+    height:1090px;
+    border-right: .8px  #D8D2CB;
+}
+.comment-div{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin-left: 15%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+.comment-div >textarea{
+    width: 90%;
+    height: 40px;
+    color: rgb(90, 89, 89);
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1.6px solid rgb(104, 103, 103);
+    outline: none;
+    /* border: 1px solid red; */
+
+}
+.comment-div .submit-btn{
+    width: 17%;
+    background-color: #ececec;
+    border: none;
+    font-weight: bold;
+    padding: 0;
+    height: 35px;
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 5px;
+    color: rgb(114, 113, 113);
+}
+.likeButoonComment{
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.commentShowDiv{
+    /* border:1px solid red; */
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    height: 30px;
+    margin-left: 16%;
+   
+    
+}
+.LikeButtonForComment{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    
+    /* border: 1px solid red; */
+}
+.commentHead{
+    margin-bottom: 25px;
+    color: grey;
+}

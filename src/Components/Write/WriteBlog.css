@@ -1,0 +1,46 @@
+.container{
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+#writePostContainer{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 40px;
+height: 550px;
+}
+#writePostContainer h3{
+    color: grey;
+    margin-bottom: 30px;
+}
+#postedComments{
+    /* border: 1px solid red; */
+    border-bottom: 1.6px solid rgb(197, 195, 195);
+    width: 100%;
+    margin-left: 40px;
+    text-align: left;
+}
+#deleteButton{
+    /* margin-top: 5%; */
+    margin-left: 90%;
+    margin-top:-7%;
+    width: 30%;
+    border: none;
+    /* border: 1px solid red; */
+}
+#deleteButton button{
+    border: none;
+    font-size: 25px;
+    padding-top: -2px;
+    padding-bottom: 5px;
+}
+
+.imageUploadCard{
+    border: 1px solid lightgray;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+}

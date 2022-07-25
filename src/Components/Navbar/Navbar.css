@@ -1,0 +1,48 @@
+#hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 3%;
+    transform: scaleX(0);
+    height: 2px;
+    margin-top: 2%;
+    margin-left: -3%;
+    /* top: 0; */
+    /* left: 0; */
+    background-color: 
+  #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+ 
+
+  /* for collection */
+  #underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 5.4%;
+    transform: scaleX(0);
+    height: 2px;
+    margin-top: 2%;
+    margin-left: -5.2%;
+    /* top: 0; */
+    /* left: 0; */
+    background-color: 
+  #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+ 
+
+  #navbarTags a{
+    color: #010101;
+  }

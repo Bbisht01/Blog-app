@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.leftDiv{
+    width: 79px;
+}
+.middleDiv{
+    width: 1030px;
+    text-align: center;
+    border-right: 1px solid #D8D2CB;
+   
+}
+.rightDiv{
+    width: 500px;
+    /* margin-left: 2rem; */
+    padding-left: 4rem;
+    margin-right: -3rem;
+
+}
+
+.topMostDiv{
+    width: 692px;
+    margin:10px auto 15px auto;
+    display: flex;
+    text-align: left;
+}
+
+.user{
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: teal;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-right:  10px;
+    margin-top: 5.5px;
+}
+.userName{
+    font-size: 19px;
+    font-weight: 500;
+}
+.blogBody{
+    width: 692px;
+    margin: auto;
+    text-align: left;
+}
+.blogTitle{
+    font-size: 28px;
+    font-weight: 700;
+}
+.blogBody{
+    font-size: 20px;
+}
+.imgDiv{
+    width: 692px;
+    margin:20px auto;
+}
+.commentDiv{
+    width: 80px;
+}
+.commentDiv img{
+  width: 20px;
+ justify-content: left;
+ cursor: pointer;
+}
+.socialIcons{
+    width: 250px;
+    margin:-27px 68%
+}
+.socialIcons img{
+    width: 25px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.socialIcons button{
+    border: none;
+    background-color: white;
+}
+.moreFrom{
+    width: 692px;
+    margin:70px auto;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bottomText button{
+background-color: black;
+color: white;
+font-size: 14px;
+padding: 6px 8px 6px 8px;
+cursor: pointer;
+border-radius: 20px;
+}
